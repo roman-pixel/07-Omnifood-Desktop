@@ -152,7 +152,7 @@ body {
   font-weight: 600;
 }
 
-.delivered-text span{
-color: #cf711f;
-fw700
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
