@@ -127,7 +127,7 @@ Careers
 
 Recipe directory
 Help center
-Privacy & terms
+**Privacy & terms**
 
 ### Sections
 

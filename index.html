@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +12,7 @@
 
   <link rel="stylesheet" href="styles/general.css" />
   <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/queries.css" />
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -19,8 +21,11 @@
 </head>
 
 <body>
+  <!-- nav-open -->
   <header class="header">
-    <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+    <a href="#">
+      <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+    </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
         <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -30,6 +35,11 @@
         <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
       </ul>
     </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
   </header>
 
   <main>
@@ -236,7 +246,7 @@
 
         <div class="testimonials">
           <figure class="testimonial">
-            <img class="testimonial-img" src="/img/customers/dave.jpg" alt="Photo of customer Dave Bryson" />
+            <img class="testimonial-img" src="img/customers/dave.jpg" alt="Photo of customer Dave Bryson" />
             <blockquote class="testimonial-text">
               Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly
               magical.
@@ -245,7 +255,7 @@
           </figure>
 
           <figure class="testimonial">
-            <img class="testimonial-img" src="/img/customers/ben.jpg" alt="Photo of customer Ben Hadley" />
+            <img class="testimonial-img" src="img/customers/ben.jpg" alt="Photo of customer Ben Hadley" />
             <blockquote class="testimonial-text">
               The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry
               about food anymore!
@@ -254,7 +264,7 @@
           </figure>
 
           <figure class="testimonial">
-            <img class="testimonial-img" src="/img/customers/steve.jpg" alt="Photo of customer Steve Miller" />
+            <img class="testimonial-img" src="img/customers/steve.jpg" alt="Photo of customer Steve Miller" />
             <blockquote class="testimonial-text">
               Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live
               without
@@ -264,7 +274,7 @@
           </figure>
 
           <figure class="testimonial">
-            <img class="testimonial-img" src="/img/customers/hannah.jpg" alt="Photo of customer Hannah Smith" />
+            <img class="testimonial-img" src=" img/customers/hannah.jpg" alt="Photo of customer Hannah Smith" />
             <blockquote class="testimonial-text">
               I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan
               and
