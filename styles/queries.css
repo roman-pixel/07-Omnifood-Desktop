@@ -297,6 +297,11 @@
     grid-template-columns: 1fr;
   }
 
+  .diets {
+    justify-self: start;
+    margin-left: 1.2rem;
+  }
+
   .plan-details {
     padding: 0 1.8rem;
   }
